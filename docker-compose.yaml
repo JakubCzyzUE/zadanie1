@@ -1,0 +1,18 @@
+version: "3.10"
+services:
+  app:
+    build: .
+    command: python main.py
+
+    ports:
+      - 5000:5000
+    volumes:
+      - .:/app
+
+# docker-compose.yaml
+# docker-compose up -d                przbudowa uruchomienie kontenerów
+# docker-compose up -d --build        przbudowa uruchomienie kontenerów z przebudowaniem obrazu
+# docker-compose ps                   sprawdza stan
+# docker-compose exec app/bin/sh      wchodzenie do kontenera
+# docker-compose logs -f              wyświetla logi
+# docker-compose

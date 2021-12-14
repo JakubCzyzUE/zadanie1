@@ -1,0 +1,16 @@
+--2021-12-01 14:04:33--  http://localhost:5000/
+Resolving localhost (localhost)... 127.0.0.1, ::1
+Connecting to localhost (localhost)|127.0.0.1|:5000... failed: Connection refused.
+Connecting to localhost (localhost)|::1|:5000... failed: Cannot assign requested address.
+Retrying.
+
+--2021-12-01 14:04:33--  (try: 2)  http://localhost:5000/
+Connecting to localhost (localhost)|127.0.0.1|:5000... failed: Connection refused.
+Connecting to localhost (localhost)|::1|:5000... failed: Cannot assign requested address.
+Retrying.
+
+--2021-12-01 14:04:35--  (try: 3)  http://localhost:5000/
+Connecting to localhost (localhost)|127.0.0.1|:5000... failed: Connection refused.
+Connecting to localhost (localhost)|::1|:5000... failed: Cannot assign requested address.
+Retrying.
+
